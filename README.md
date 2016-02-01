@@ -17,7 +17,6 @@ unable to find valid certification path to requested target
 
 From: http://myshittycode.com/2014/06/05/java-https-unable-to-find-valid-certification-path-to-requested-target/ and http://www.mkyong.com/webservices/jax-ws/suncertpathbuilderexception-unable-to-find-valid-certification-path-to-requested-target/. 
 
-The program is copied here.
 
 The long story short here is to:
 * Run java InstallCert `<server>:<port>` to generate a file called `jssecacerts`. 
